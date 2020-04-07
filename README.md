@@ -10,7 +10,6 @@ Hardware components:
 - 2x [Raspberry Pi 3 B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) including SD card and power supply or a powerbank for mobile receiver, respectively. Refer to [Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/setup/) for details.
 - [IQaudIO Pi-DAC+](http://iqaudio.co.uk/hats/8-pi-dac.html) HAT audio interface
 - [HifiBerry DAC+](https://www.hifiberry.com/shop/boards/hifiberry-dac-adc) HAT audio interface
-- optional (for beta prototype): Wi-Fi 5 (IEEE 802.11ac) capable wireless router
 
 You need terminal access on both Raspberry Pis to run scripts. Either physically or remotely using [SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/README.md). Furthermore an internet connection is needed for installing packages.
 
@@ -45,4 +44,5 @@ To decrease induced latency rise by this you can try using a higher samplerate i
 Watch for xruns by executing the runtime scripts piped like this: `rx-wlan && tail -f jack*.log | grep xrun`
 
 ## Contribution and Donation
-Feel free to 
+Feel free to spread the work, fork or contribute by other means to this project and its resources. Always remember to make a donation to developers and maintainers.
+
