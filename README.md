@@ -24,9 +24,9 @@ You need terminal access on both Raspberry Pis to run scripts. Either physically
 6. Changing directory to iem-tx and run install-tx.sh script: `./install-tx.sh`
 7. Reboot and log in again
 8. If you'd like to use a wireless router as access point:
-   8.1 Disable hostapd service: `sudo systemctl disable hostapd`
-   8.2 Connect wireless router to ethernet port of iem-tx
-   8.3 Setup network credentials to match with those in [iem-rx config file](iem-rx/conf/realtimepi-wpa-supplicant.txt)
+   - Disable hostapd service: `sudo systemctl disable hostapd`
+   - Connect wireless router to ethernet port of iem-tx
+   - Setup network credentials to match with those in [iem-rx config file](iem-rx/conf/realtimepi-wpa-supplicant.txt)
 9. Execute `tx-wlan` (or `tx-eth` if using a wireless router)
 
 ### Setup the receiver: iem-rx
