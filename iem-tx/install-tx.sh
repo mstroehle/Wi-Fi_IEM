@@ -12,7 +12,7 @@ sudo sed -i 's/realtimepi/iem-tx/' /etc/hosts
 echo "dtoverlay=hifiberry-dacplusadc" | sudo tee -a /boot/config.txt
 echo "dtoverlay=pi3-disable-bt" | sudo tee -a /boot/config.txt
 # disable internal soundcard by not loading its module
-sed -i 's/dtparam=audio=on/dtparam=audio=off/' /boot/config.txt
+sudo sed -i 's/dtparam=audio=on/dtparam=audio=off/' /boot/config.txt
 
 ## boot config
 # disable sdhci low-latency mode by appending sdhci_bcm2708.enable_llm=0 to kernel cmdline
