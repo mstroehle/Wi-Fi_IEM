@@ -1,7 +1,7 @@
-# Wi-Fi_IEM
+# Wi-Fi IEM
 [In-Ear Monitor](https://en.wikipedia.org/wiki/In-ear_monitor)ing over wireless LAN using [Real-Time Linux](https://wiki.linuxfoundation.org/realtime/start) on [Raspberry Pi](http://www.raspberrypi.org/)
 
-This project is for building a prototype on Raspberry Pi plattform powered by [RealtimePi](https://github.com/guysoft/RealtimePi) using and [Zita-njbridge](https://kokkinizita.linuxaudio.org/linuxaudio/index.html) with [JACK Audio Connection Kit](https://github.com/jackaudio/) and [hostapd](https://w1.fi/hostapd/) for access point operation.
+This project is for building a prototype on Raspberry Pi plattform powered by [RealtimePi](https://github.com/guysoft/RealtimePi) using [Zita-njbridge](https://kokkinizita.linuxaudio.org/linuxaudio/index.html) with [JACK Audio Connection Kit](https://github.com/jackaudio/) and [hostapd](https://w1.fi/hostapd/) for access point operation.
 
 First of all I'd like to thank [Guy Sheffer](https://github.com/guysoft) for maintaining RealtimePi, Jouni Malinen for developing hostapd and Fons Adriaensen for creating Zita-njbridge as well as all the other people contributing to Linux and free software.
 
