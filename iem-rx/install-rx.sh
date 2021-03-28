@@ -18,6 +18,8 @@ sed -i 's/dtparam=audio=on/dtparam=audio=off/' /boot/config.txt
 sudo sed -i 's/$/ sdhci_bcm2708.enable_llm=0/' /boot/cmdline.txt
 
 ## package installation
+# refresh the package database
+sudo apt-get update
 # change debconf default value for jackd1 package
 echo jackd jackd/tweak_rt_limits boolean true | sudo debconf-set-selections
 # install jack without recommendations and omitting install confirmation
