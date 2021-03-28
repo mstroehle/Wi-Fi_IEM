@@ -9,7 +9,7 @@ sudo sed -i 's/realtimepi/iem-rx/' /etc/hosts
 
 ## overlay config
 # configure overlay by appending to /boot/config.txt file
-echo "dtoverlay=pi3-disable-bt" | sudo tee -a /boot/config.txt
+sudo echo "dtoverlay=pi3-disable-bt" | sudo tee -a /boot/config.txt
 # disable internal soundcard by not loading its module
 sed -i 's/dtparam=audio=on/dtparam=audio=off/' /boot/config.txt
 
@@ -46,7 +46,7 @@ sudo systemctl disable usage-statistics.service
 
 ## wlan config
 # overwrite helper file in /boot
-cp conf/realtimepi-wpa-supplicant.txt /boot/realtimepi-wpa-supplicant.txt
+sudo cp conf/realtimepi-wpa-supplicant.txt /boot/realtimepi-wpa-supplicant.txt
 
 ## runtime setup
 # create bin directory and copy prototype scripts
