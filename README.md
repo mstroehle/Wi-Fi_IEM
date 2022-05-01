@@ -21,7 +21,7 @@ You need terminal access on both Raspberry Pis to run scripts. Either physically
 
 ### Setup the transmitter: iem-tx
 5. Use Raspberry Pi on power supply as transmitter
-6. Changing directory to iem-tx and run install-tx.sh script: `./install-tx.sh`
+6. Change directory to iem-tx and run install-tx.sh script: `cd iem-tx && ./install-tx.sh`
 7. Reboot and log in again
 8. If you'd like to use a wireless router as access point:
    - Disable hostapd service: `sudo systemctl disable hostapd`
@@ -31,7 +31,7 @@ You need terminal access on both Raspberry Pis to run scripts. Either physically
 
 ### Setup the receiver: iem-rx
 10. Use Raspberry Pi on powerbank as receiver
-11. Changing directory to iem-rx and run install-rx.sh script: `./install-rx.sh`
+11. Change directory to iem-rx and run install-rx.sh script: `cd iem-rx && ./install-rx.sh`
 12. Reboot and log in again
 13. Execute `rx-wlan`
 
